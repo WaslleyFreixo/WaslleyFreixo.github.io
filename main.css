@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: gray;
+    color: white;
+    padding: 2%;
+}
+
+.navbar img{
+    width: 65px;
+    height: 65px;
+   }
+
+li{
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+.cabecalho{
+    color:white;
+    padding: 0%;
+}
+
+.banner{
+    background-image: url(img/OAYTRN0.jpg);
+    height: 1200px;
+}
+.conteudo{
+    padding: 50px;
+    color: white;
+    }
+
+.conteudo img{
+    width: 300px;
+    height: 300px;
+}
+.info{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.galeria{
+    padding: 20px;
+    color: white;
+}
+.galeria img{
+    height: 250px;
+    width: 320px;
+}
+
+.contato{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        font-size: 30px;
+    }
+.navbar{
+        text-align: center;
+}
+.conteudo{
+        padding: 10px;
+    }
+    
+.galeria{
+        padding: 10px;
+    }
+.galeria img{
+        width: 100%;
+        height: auto;
+}
+}
